@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
+#info-panel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 50, 80, 0.8); /* Dark sci-fi blue */
+  color: #00ffcc; /* Cyan text */
+  padding: 10px;
+  font-family: "Arial", sans-serif;
+  border: 1px solid #00ffcc;
+  border-radius: 5px;
+  display: none;
+}
